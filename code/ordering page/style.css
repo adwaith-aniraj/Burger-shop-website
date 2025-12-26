@@ -6,9 +6,10 @@
 }
 
 body {
-          background: #090909;
+          background:radial-gradient(circle at top left, #1c1c1c, #000);
           color: white;
           padding: 20px;
+          height: 100vh;
 }
 .logo {
           width: 100px;

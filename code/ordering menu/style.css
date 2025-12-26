@@ -6,7 +6,7 @@
 }
 
 body {
-          background: radial-gradient(circle at top, #1c1c1c, #000);
+          background: black;
           color: white;
           padding: 30px;
 }
@@ -64,10 +64,11 @@ body {
 }
 
 .card img {
+          filter: drop-shadow(0px 0px 40px #8a4c00);
           width: 100%;
           max-height: 160px;
           object-fit: contain;
-          filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.6));
+          
 }
 
 .card h3 {
