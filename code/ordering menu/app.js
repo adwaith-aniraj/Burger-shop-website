@@ -28,7 +28,7 @@ products.forEach(item => {
     card.className = "card";
 
     card.innerHTML = `
-        <img src="img/img${img}.png" alt="burger">
+        <img src="img/${img}.webp" alt="burger">
         <h3>${item.name}</h3>
         <p>Delicious & freshly made</p>
         <div class="price">₹${item.price}</div>
