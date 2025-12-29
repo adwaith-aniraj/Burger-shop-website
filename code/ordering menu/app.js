@@ -15,6 +15,7 @@ const products = [
     
    
 ];
+const ordering_pages = [ "nothin","Classic Beef Burger", "Cheese Burst Burger", "BBQ Chicken Burger", "Double Patty Monster","Veg Supreme", "Spicy Mexican Burger", "Loaded Fries", "Cheese Fries", "Chicken Nuggets", "Peri Peri Wings", "Crispy Zinger", "Paneer Tikka Burger",];
 
 let cart = 0;
 let img = 0;
@@ -27,12 +28,13 @@ products.forEach(item => {
     const card = document.createElement("div");
     card.className = "card";
 
-    card.innerHTML = `
+    card.innerHTML = `<a href="../ordering pages/${ordering_pages[img]}/index.html">
         <img src="img/${img}.webp" alt="burger">
         <h3>${item.name}</h3>
         <p>Delicious & freshly made</p>
         <div class="price">₹${item.price}</div>
         <button>Add to Cart</button>
+        <a>
     `;
 
     const btn = card.querySelector("button");
