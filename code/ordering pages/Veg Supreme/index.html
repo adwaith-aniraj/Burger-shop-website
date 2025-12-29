@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+          <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Order Burger | Travelo</title>
+
+                    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+                              rel="stylesheet">
+                    <link rel="stylesheet" href="style.css">
+                    <script src="app.js"></script>
+
+
+          </head>
+
+          <body>
+                    <header>
+                              <nav>
+                                        <img class="logo" src="img/logo.png" alt="" />
+
+                                        <ul>
+                                                  <li><a href="../index.html">Home</a></li>
+                                                  <li>
+                                                            <a href="#">menu</a>
+                                                  </li>
+                                                  <li><a href="#">about</a></li>
+                                                  <li>
+                                                            <a href="#">shop</a>
+                                                  </li>
+                                        </ul>
+                                        <ul>
+                                                  <li class="icons">
+                                                            <img src="img/like (1).png" class="icon" alt="" />
+                                                  </li>
+                                                  <li class="icons">
+                                                            <img src="img/dislike.png" alt="" class="icon" />
+                                                  </li>
+                                                  <li class="icons">
+                                                            <img src="img/coment.png" alt="" class="icon" />
+                                                  </li>
+                                        </ul>
+                              </nav>
+                    </header>
+                    <main>
+                              <div class="container">
+
+                                        <div class="product-img">
+                                                  <img src="5.webp"
+                                                            alt="Burger">
+                                        </div>
+
+                                        <div class="product-info">
+                                                  <h1>Classic <span>Beef Burger</span></h1>
+                                                  <p>
+                                                            Juicy grilled beef patty layered with fresh lettuce,
+                                                            tomatoes, melted
+                                                            cheese,
+                                                            and our signature Travelo sauce.
+                                                  </p>
+
+                                                  <div class="price">₹<span id="price">199</span></div>
+
+                                                  <div class="qty-box">
+                                                            <button onclick="changeQty(-1)">−</button>
+                                                            <div class="qty" id="qty">1</div>
+                                                            <button onclick="changeQty(1)">+</button>
+                                                  </div>
+
+                                                  <div class="actions">
+                                                            <button class="add" onclick="addToCart()">Add to
+                                                                      Cart</button>
+                                                            <button class="buy">Buy Now</button>
+                                                  </div>
+                                        </div>
+
+                              </div>
+                    </main>
+
+
+
+          </body>
+
+</html>
