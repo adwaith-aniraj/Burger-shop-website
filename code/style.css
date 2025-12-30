@@ -108,7 +108,7 @@ button {
   transition: 10ms;
   top: 48.5%;
 }
-button:active{
+button:focus-within{
   background-color: #f98322;
 }
 .cart {
