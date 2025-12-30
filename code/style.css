@@ -60,7 +60,7 @@ header ul a:hover {
 .icons {
   display: flex;
   justify-content: center;
-  border-left: 1.5rem solid;
+  padding: 3px;
 }
 .icon:hover {
   border-radius: 50px;
